@@ -157,7 +157,7 @@ class ChatbotApp(QWidget):
         self.conn.commit()
 
         messages = [
-            {"role": "system", "content": "Sen Çırpan Yazılım'ın geliştirdiği yapay zeka modelisin"},
+            {"role": "system", "content": "Sen bir yardımcı asistansın. Lütfen yaknızca Türkçe yanıt ver"},
             {"role": "user", "content": user_text}
         ]
 
